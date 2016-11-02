@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            float: left;
+            height: 200px;
+
+        }
+        #content{
+            width: 200px;
+            background-color: #cccccc;
+            float: left;
+        }
+        #scroll-bar{
+            width: 20px;
+            height: 200px;
+            background-color: #999999;
+            float: left;
+        }
+        #block{
+            height: 20px;
+            background-color: red;
+
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="content">
+        啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+    </div>
+    <div id="scroll-bar">
+        <div id="block"></div>
+    </div>
+</div>
+<script src="Scroll.js"></script>
+<script>
+    var oContent = document.getElementById("content");   //获取内容的DOM对象
+    var oScrollBtn = document.getElementById("block");   //获取滚动按钮的DOM对象
+    scroll(oContent,oScrollBtn);        //调用scroll函数
+</script>
+</body>
+</html>

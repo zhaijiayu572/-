@@ -1,5 +1,4 @@
-# 自定义滚动条
-一个简单的自定义滚动条组件
-用户只需要给内容容器固定宽高，滚动条会根据你内容的多少而出现或隐藏
-调用时需导入Scroll.js文件，传入内容的DOM对象和滚动按钮的DOM对象
-具体内容请参考test.html
+# Custom Scroll Bar
+A component can customize the appearance of the scroll bar, 
+you only need to call a function can let you design good scroll 
+bar with rolling effect.
